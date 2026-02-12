@@ -1,0 +1,23 @@
+
+@media (min-width: 768px) {
+    .grid-ofertas {
+        grid-template-columns: 1fr 1fr 2fr;
+    }
+}
+
+
+@media print {
+    header, .botao {
+        display: none;
+    }
+
+    body {
+        background: white;
+        color: black;
+    }
+
+    .produto {
+        box-shadow: none;
+        border: 1px solid black;
+    }
+}
